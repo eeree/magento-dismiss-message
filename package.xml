@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>dismissmessage</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>MIT</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Extension, that allows users to dismiss error/notice/success messages on front side of your shop</summary>
+    <description>Module adds a [X] button (similar in look and behavior to ones, that you can find in Bootstrap or Zurb Foundation) to messages on a front page. Allows you to hide a message applying native browser animation effect (ease). This release adds support only for front messages (admin area in progress).</description>
+    <notes>* initial version</notes>
+    <authors><author><name>Kamil Szymanski</name><user>fajtlapa</user><email>kamilszymanski@gmail.com</email></author></authors>
+    <date>2015-10-12</date>
+    <time>23:37:55</time>
+    <contents><target name="magecommunity"><dir name="Eeree"><dir name="DismissMessage"><dir name="etc"><file name="config.xml" hash="c518053fe19a1990e82a15f72270cb36"/></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="eeree"><file name="dismiss_message.css" hash="357bb385b24f02d8cc5eefd6310f1b76"/></dir></dir><dir name="js"><dir name="eeree"><file name="dismiss_message.js" hash="7af6d618d9f2dd0cc916d57a0d22b808"/></dir></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="eeree"><file name="dismiss_message.xml" hash="269d86dd9da632541e1e2614db5090a3"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Eeree_DismissMessage.xml" hash="0adbd334aada9e3026ea2662ca4ab94d"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Eeree_DismissMessage>
+            <version>1.0.0</version>
+        </Eeree_DismissMessage>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <eeree_dismissmessage>
+                    <file>eeree/dismiss_message.xml</file>
+                </eeree_dismissmessage>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <layout>
+            <updates>
+                <eeree_dismissmessage>
+                    <file>eeree/dismiss_message.xml</file>
+                </eeree_dismissmessage>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

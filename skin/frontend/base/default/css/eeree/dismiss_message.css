@@ -1,0 +1,44 @@
+.messages .removed, .removed:before {
+    border: none;
+    font-size: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    -o-transition: opacity 0.6s, height 0.6s, border 0.4s, padding 0.4s, margin 0.4s ease-out;
+    -moz-transition: opacity 0.6s, height 0.6s, border 0.4s, padding 0.4s, margin 0.4s ease-out;
+    -webkit-transition: opacity 0.6s, height 0.6s, border 0.4s, padding 0.4s, margin 0.4s ease-out;
+    transition: opacity 0.6s, height 0.6s, border 0.4s, padding 0.4s, margin 0.4s ease-out
+}
+
+.removed:before {
+    visibility: hidden;
+}
+
+.messages li {
+    position: relative
+}
+
+.messages .close {
+    background: transparent;
+    color: #333;
+    opacity: 0.3;
+    outline: none;
+    position: absolute;
+    right: 20px;
+    text-decoration: none;
+    top: 50%;
+    -moz-transform: translateY(-55%);
+    -ms-transform: translateY(-55%);
+    -o-transform: translateY(-55%);
+    -webkit-transform: translateY(-55%);
+    transform: translateY(-55%)
+}
+
+.messages .close:hover, .messages .close:focus {
+    opacity: 0.7
+}
+
+.messages .close:active {
+    opacity: 0.9
+}
